@@ -1,0 +1,58 @@
+body{
+    background: linear-gradient(rgba(206, 192, 255, 0.575), rgb(255, 255, 255));
+   
+}
+#nome{
+    text-align: center;
+    font-size: 75px;
+    font-family: 'Josefin Sans', sans-serif;
+   
+}
+#foto{
+    align-items: center;
+    margin-left: 500px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50% ;
+    margin-top: 105px;
+}
+h3{font-size: 17px;
+    align-items: center;
+    margin-left: 500px;
+    padding: 10px;
+   
+    font-family: 'Righteous', cursive;
+    margin-top: -32px;
+
+    border-left: 4px solid rgb(111, 0, 255);
+    
+}
+h2{
+    text-align: center;
+    background-color: rgba(137, 43, 226, 0.212);
+    padding: 15px;
+    border-radius: 20px;
+    font-family: 'Righteous', cursive;
+    margin-top: 50px;
+    
+}
+h2:hover{
+    background-color: rgba(39, 12, 65, 0.356);
+    border-radius: 20px;
+    border: 3px solid;
+    border-image: linear-gradient(45deg, #c20d7c, #ffbb00 100%) 1;
+    background: linear-gradient(rgba(206, 192, 255, 0.575), rgb(255, 255, 255));
+  
+}
+
+a{
+    text-decoration: none;
+    font-size: 19px;
+}
+#logo{
+    width: 35px;
+   margin-right: 20px;
+    
+    
+
+}
