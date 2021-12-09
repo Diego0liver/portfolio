@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(rgba(206, 192, 255, 0.575), rgb(255, 255, 255));
+    background: linear-gradient(rgba(192, 255, 206, 0.575), rgb(255, 255, 255));
    
 }
 #nome{
@@ -15,26 +15,29 @@ body{
     height: 200px;
     border-radius: 50% ;
     margin-top: 105px;
+    border-radius: 150px;
+    border:  4px solid rgb(0, 255, 128);;
+background: #72fdbc;
+box-shadow:  27px -27px 100px #51b485,
+             -27px 27px 100px #93fff3;
 }
-h3{font-size: 17px;
+h3{
     align-items: center;
     margin-left: 500px;
     padding: 10px;
    
     font-family: 'Righteous', cursive;
-    margin-top: -32px;
-
-    border-left: 4px solid rgb(111, 0, 255);
+    
+    border-left: 4px solid rgb(0, 255, 128);
     
 }
 h2{
     text-align: center;
-    background-color: rgba(137, 43, 226, 0.212);
+    background-color: rgba(127, 121, 133, 0.212);
     padding: 15px;
     border-radius: 20px;
     font-family: 'Righteous', cursive;
-    margin-top: 50px;
-     font-size:22px;
+    
     
 }
 h2:hover{
@@ -42,7 +45,7 @@ h2:hover{
     border-radius: 20px;
     border: 3px solid;
     border-image: linear-gradient(45deg, #c20d7c, #ffbb00 100%) 1;
-    background: linear-gradient(rgba(206, 192, 255, 0.575), rgb(255, 255, 255));
+    background: linear-gradient(rgba(160, 218, 172, 0.575), rgb(255, 255, 255));
   
 }
 
@@ -51,9 +54,16 @@ a{
     font-size: 19px;
 }
 #logo{
-    width: 35px;
+    width: 90px;
    margin-right: 20px;
+}
+#tx01{
+    font-size: 75px;
+}
+#tx01:hover{
+    color: rgba(47, 88, 52, 0.479);
+}
+#tx{
+    font-size: 10px;
     
-    
-
 }
