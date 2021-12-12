@@ -53,17 +53,40 @@ a{
     text-decoration: none;
     font-size: 19px;
 }
-#logo{
+.logo{
     width: 90px;
    margin-right: 20px;
 }
 #tx01{
     font-size: 75px;
+    color: rgba(0, 0, 0, 0.356)
 }
 #tx01:hover{
     color: rgba(47, 88, 52, 0.479);
 }
 #tx{
-    font-size: 15px;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.356)
     
+}
+#menu2{
+    position: absolute;
+    background-color: rgba(0, 255, 128, 0.89);
+    border-radius: 15px;
+    opacity: 0;
+    z-index: -1;
+    list-style: none;
+    transition:  0.7s;
+    font-size: 60px;
+    padding: 15px;
+    font-family: 'Righteous', cursive;
+}
+#menu2.active{
+    opacity: 1;
+    z-index: 1;
+    list-style: none;
+    transition:  0.7s;
+margin-top: -1100px;}
+#close{
+    width: 55px;
 }
