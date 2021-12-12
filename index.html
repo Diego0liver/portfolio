@@ -11,6 +11,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./style.css">
     <title>Diego Oliveira Fonseca</title>
     <body>
@@ -24,17 +25,30 @@
         Cursando Programação Web & mobile</h3>
 
         <a href="https://www.facebook.com/diego.junio.370">
-            <h2><img id="logo" src="./img/facebook.png"><div id="tx01">Facebook</h2></a></div>
+            <h2><img class="logo" src="./img/facebook.png"><div id="tx01">Facebook</h2></a></div>
         <a href="https://www.instagram.com/diego.f0nseca/">
-            <h2><img id="logo" src="./img/instagram.png"><div id="tx01">Istagran</h2></a></div>
-        <a href="https://www.linkedin.com/in/diego-oliveira-fonseca">
-            <h2><img id="logo" src="./img/linkedin.png"><div id="tx01">Linkidin</h2></a></div>
+            <h2><img class="logo" src="./img/instagram.png"><div id="tx01">Istagran</h2></a></div>
+        <a href="www.linkedin.com/in/diego-oliveira-b252b721b">
+            <h2><img class="logo" src="./img/linkedin.png"><div id="tx01">Linkedin</h2></a></div>
         <a href="https://github.com/Diego0liver">
-            <h2><img id="logo" src="./img/github.png"><div id="tx01">GitHub</h2></a></div>
-        <a href="mailto:diegoju95@hotmail.com">
-            <h2><img id="logo" src="./img/enviar-correio.png"><div id="tx01">Contato</h2></a></div>
-        <a href="#">
-            <h2><img id="logo" src="./img/estudando.png"><div id="tx01">Formação</h2></a></div>
+            <h2><img class="logo" src="./img/github.png"><div id="tx01">GitHub</h2></a></div>
+        <a href="diegoju95@hotmail.com">
+            <h2><img class="logo" src="./img/enviar-correio.png"><div id="tx01">Contato</h2></a></div>
+       
+            <h2><img  id="menu" class="logo" 
+                  src="./img/estudando.png"><div id="tx01" onclick="abreMenu()">Formação</h2></div>
+
+
+
+            <ul id="menu2" class="efeito">
+                <img   onclick="fechaMenu()" id="close" src="./img/close.png" alt="menu">
+                <li><b>Front-end - 97%</b></li>
+                <li>•HTML &nbsp;&nbsp; •CSS &nbsp;&nbsp; •JavaScript &nbsp;&nbsp; •Bootstrap</li>
+                <li><b>Back-end - 30%</b></li>
+                <li>•JavaScript &nbsp;&nbsp; •Node &nbsp;&nbsp; •React &nbsp;&nbsp; •Mongodb</li>
+                <li><b>Mobile - 30%</b></li>
+                <li>•Flutter</li></ul>
+                <script src="./menu.js"></script>
         
     </body>
 </head></html>
