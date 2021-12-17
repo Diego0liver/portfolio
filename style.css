@@ -25,6 +25,7 @@ h3{
     align-items: center;
     margin-left: 500px;
     padding: 10px;
+font-size: 15px;
    
     font-family: 'Righteous', cursive;
     
@@ -65,7 +66,7 @@ a{
     color: rgba(47, 88, 52, 0.479);
 }
 #tx{
-    font-size: 10px;
+    font-size: 15px;
     color: rgba(0, 0, 0, 0.356)
     
 }
